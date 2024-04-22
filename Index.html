@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>practice HTML</title>
+    </head>
+    <body>
+        <h1>Heading 1</h1>
+        <h2>Heading 2</h2>
+        <h3>heading3</h3>
+        <h4>heading4</h4>
+        <h5>heading5</h5>
+        <h6>heading6</h6>
+        <div>
+            <p>Lorem ipsum dolor sit amet <span style="color: rgb(0, 30, 255);">consectetur </span>adipisicing elit. Eum, molestias.</p>
+            <pre>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, voluptates.</pre>
+            <code>
+                console.log('hello world');
+            </code>
+            <p>Lorem ipsum dolor sit amet<em> consectetur adipisicing </em>elit. Perspiciatis, maiores.</p>
+            <ol>
+                <li>data 1</li>
+                <li>data 2</li>
+                <li>data 3</li>
+                <li>data 4</li>
+                <li>data 5</li>
+            </ol>
+            <ul>
+                <li>your data</li>
+                <li>your data</li>
+                <li>your data</li>
+                <li>your data</li>
+            </ul>
+
+            <!-- Media tag -->
+            <audio controls>
+                <source src="demo.mp3" type="audio/mpeg">
+                your browser does not support the audio element.
+            </audio> <br>
+            <img src="#" alt="there is no picture">
+            <video>
+                <source src="demo_move.mp4" type = "video/mp4">
+                your browser does not support the video tag.
+            </video>
+        </div>
+        <div>
+            <!-- Table tag -->
+
+            <table border="1" style="border-collapse: collapse; font-size: 25px;">
+                <caption>Demo Table</caption>
+                <thead>
+                    <tr>
+                        <th>column1</th>
+                        <th>colspan-</th>
+                        <th>column3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data2</td>
+                        <td>Data2</td>
+                        <td>Data2</td>
+                    </tr>
+                    <tr>
+                        <td>Data 3</td>
+                        <td>Data 3</td>
+                        <td>Data 3</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>Data4</td>
+                        <td>Data4</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+        <div>
+            <a href="#">visit codewordHarry.com</a>
+
+        </div>
+        <!-- this is the normal form -->
+
+        <div style="border: 1px solid ; border-radius: 4px;">
+            <form action="/action.php" method="post">
+                name: <input name ="name" type="text" autofocus /> <br>
+                age: <input max="90" min="5" name="age" step="1" type="number" value="18"> <br>
+                <select name="gender" id="">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select> <br />
+                <input type="radio" checked="checked" name="newsletter" id="">Daily <br/>
+                <input type="radio" name="newsletter" id="" value="weekly">weekly <br />
+                <textarea cols="20" name="comments" rows="5">comments</textarea> <br>
+                <label for="terms">
+                    <input type="checkbox" name="terms" id="terms" value="tads"> Accept terms and condition
+                </label> <br>
+                <input type="submit" value="submit">
+            </form>
+        </div>
+    </body>
+</html>
